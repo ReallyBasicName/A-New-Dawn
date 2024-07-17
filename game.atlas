@@ -1,0 +1,146 @@
+
+game.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Congress
+  rotate: false
+  xy: 853, 401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Council
+  rotate: false
+  xy: 853, 293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Last Patrol
+  rotate: false
+  xy: 437, 301
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/MalGen
+  rotate: false
+  xy: 437, 93
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Seaquestria
+  rotate: false
+  xy: 4, 76
+  size: 425, 425
+  orig: 425, 425
+  offset: 0, 0
+  index: -1
+NationIcons/Solar Empire
+  rotate: false
+  xy: 645, 301
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Tortured Ones
+  rotate: false
+  xy: 645, 93
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mechanizationism
+  rotate: false
+  xy: 853, 77
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cadet
+  rotate: false
+  xy: 4, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Commissioner
+  rotate: false
+  xy: 961, 473
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Devourer
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Enforcer
+  rotate: false
+  xy: 44, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Interceptor
+  rotate: false
+  xy: 961, 437
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Jeep
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mangler
+  rotate: false
+  xy: 84, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Patrol Vehicle
+  rotate: false
+  xy: 961, 401
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Roamer
+  rotate: false
+  xy: 961, 362
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Strider
+  rotate: false
+  xy: 961, 314
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tour Vehicle
+  rotate: false
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Enforcer
+  rotate: false
+  xy: 853, 185
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

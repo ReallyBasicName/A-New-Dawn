@@ -1,0 +1,75 @@
+[
+	//Last Patrol
+	{
+		"name": "Halls of Justice",
+		"isWonder": true,
+		"uniqueTo": "Last Patrol",
+		"production": 1,
+		"happiness": 1,
+		"cost": 1,
+		"uniques": [
+			"[1] free [Cadet] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "MAINTAIN RIGHT. - Motto of the Last Patrol",
+	},
+	{
+		"name": "Detention Centre",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Listening Post",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Corrective Centre]>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Corrective Centre",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Prison Camp",
+		"hurryCostModifier": -25,
+		"production": 2,
+		"food": -1,
+		"cost": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Only available <in cities without a [Detention Centre]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Pub",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Distillery",
+		"culture": 1,
+		"happiness": 3,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Alcohol]"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	}
+	//Malcolm Genetics
+	/*{
+		"name": "Hammond Museum",
+		"isWonder": true,
+		"uniqueTo": "Malcolm Genetics",
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"[1] free [Park Ranger] units appear",
+			"Gain a free [Food Store] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "",
+	},*/
+]

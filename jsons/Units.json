@@ -1,0 +1,139 @@
+[
+	//Last Patrol
+	{
+		"name": "Cadet",
+		"unitType": "Scrapper",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 34,
+		"interceptRange": 1,
+		"cost": 45,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Enforcer",
+		"unitType": "Scrapper",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 46,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "NBC Infantry",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Urban Warfare II"]
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Commissioner",
+		"unitType": "Civilian",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [6]-turn Golden Age <by consuming this unit>",
+			"[+20]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Patrol Vehicle",
+		"unitType": "Armor",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Attack Vehicle",
+		"movement": 4,
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <vs [Barbarian] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Interceptor",
+		"unitType": "Armor",
+		"uniqueTo": "Last Patrol",
+		"replaces": "Armored Car",
+		"movement": 5,
+		"strength": 46,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"[-33]% Strength <vs [Armor] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	//Malcolm Genetics
+	/*{
+		"name": "Jeep",
+		"unitType": "Armor",
+		"uniqueTo": "MalGen",
+		"replaces": "Attack Vehicle",
+		"movement": 4,
+		"strength": 30,
+		"cost": 55,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Park Ranger"
+		"unitType": "Shooter",
+		"uniqueTo": "MalGen",
+		"replaces": "Gunman",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I"]
+		"attackSound": "shot"
+	}*/
+]

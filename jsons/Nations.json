@@ -1,0 +1,237 @@
+[
+	//Will get events to find COG sites with Choices to Exterminate Them, Enslave Them, or Harvest Them
+	{
+		"name": "Last Patrol",
+		"leaderName": "Labatouche",
+		"adjective": ["Patrolmen"],
+		//"startBias": [""],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Malcolm",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Your days are numbered criminal.",
+		"attacked": "Stand down, raider scum!",
+		"defeated": "We failed our mission, maybe, you can do better...",
+		"introduction": "Good afternoon fellow survivor, please report any organized criminal movements so we can deal with it.",
+		
+		"neutralHello": "Need something?",
+		"hateHello": "We got reports of your misdeeds, stop now or there will be consequences.",
+		"tradeRequest": "We need finances, and maybe you need this.",
+		
+		"outerColor": [16, 12, 106],
+		"innerColor": [139, 130, 72],
+		//"style": "",
+		"uniqueName": "Organized Crime Initiative",
+		"uniques": [
+			"Starts with [Machinery]",
+			"[+20]% Strength <vs [Barbarian] units>"
+			]
+		"cities": [
+			"Melbourne",
+			"Wollongong",
+			"Sydney",
+			"Port Macquarie",
+			"Coffs Harbour",
+			"Gold Coast",
+			"Logan",
+			"Brisbane",
+			"Sunshine Coast",
+			"Agnes Water",
+			"Mackay",
+			"Arlie Beach",
+			"Townsville",
+			"Cloncurry",
+			"Mount Isa",
+			"Camooweal",
+			"Warumungu",
+			"Davenport",
+			"Alice Springs"
+			]
+        "spyNames": ["Fifi", "Goose", "Roop", "Charlie", "Macaffee", "Jim", "Sarse", "Scuttle", "Barry", "Ziggy"]
+	},
+	/*{
+		"name": "MalGen",
+		"leaderName": "Mr. Malcolm",
+		"adjective": ["MalGen"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		//"personality": "Malcolm",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "Welcome to Malcolm Genetics, here you will be helping to bring back creatures gone extinct due to nuclear hellfire, human intervention, or other means. You may be wodering why we still exist, the answer being.....",
+		"startIntroPart2": "Ha! You thought you were going  to get an answer, get back to work.",
+		
+		"declaringWar": "Unfortunately you stand in the way of progress.",
+		"attacked": "Why do you hate progress so much?",
+		"defeated": "Of course, as the Old World did so did the New World.",
+		"introduction": "Welcome to Malcolm Genetics where creativity and innovation are our heart and soul.",
+		
+		"neutralHello": "Need something, friend?",
+		"hateHello": "I'm busy.",
+		"tradeRequest": "We need this for research purposes, would you be interested?",
+		
+		"outerColor": [167, 77, 21],
+		"innerColor": [0, 0, 0],
+		//"style": "",
+		"uniqueName": "Tyranno Rex",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			]
+		"cities": [
+			"Malcolm Research Center",
+			"Site A",
+			"Site B",
+			"Site C",
+			"Site D",
+			"Site E",
+			"Site F",
+			"Site G",
+			"Site H",
+			"Site I",
+			"Site J",
+			"Site K",
+			"Site L",
+			"Site M",
+			"Site N",
+			"Site O",
+			"Site P",
+			"Site Q",
+			"Site R",
+			"Site S",
+			"Site T",
+			"Site U",
+			"Site V",
+			"Site W",
+			"Site X",
+			"Site Y",
+			"Site Z"
+			]
+        "spyNames": ["Agent 01", "Agent 02", "Agent 03", "Agent 04", "Agent 05", "Agent 06", "Agent 07", "Agent 08", "Agent 09", "Agent 00"]
+	},
+	{
+		"name": "Seaquestria",
+		"leaderName": "Queen Novo",
+		"adjective": ["Seaquestrian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Malcolm",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [87, 146, 173],
+		"innerColor": [254, 210, 82],
+		//"style": "",
+		"uniqueName": "Under the Sea",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			"Starts with [Sailing]",
+			"Starts with [Navigation]",
+			]
+		"cities": [
+			"",
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+	},
+	{
+		"name": "Solar Empire",
+		"leaderName": "Daybreaker",
+		"adjective": ["Solar"],
+		"startBias": ["Avoid Tundra"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Solar",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You will die for rejecting the sun!",
+		"attacked": "I will KILL you... and I think, no, I know, I'll enjoy you screams. 'Laughs Maniacaly'",
+		"defeated": "NOOooo! My sun, my beautiful sun, It's ruined! Oh, and my people are endangered...",
+		"introduction": "Bow before the almighty Daybreaker, most powerful alicorn of all time.",
+		
+		"neutralHello": "Bow before me! Then we can talk.",
+		"hateHello": "I should incinerate you. 'Laughs Maniacally'",
+		"tradeRequest": "The almighty Daybreaker in all her power, and beauty would like to trade!",
+		
+		"outerColor": [190,50,0],		
+		"innerColor": [252,183,0],
+		//"style": "",
+		"uniqueName": "Power of the Sun",
+		"uniques": [
+		"[-25]% maintenance costs <for [Land] units>",
+		"[+2 Happiness] [in all cities] <when at war>",
+		"[-1 Happiness] [in all cities] <when not at war>"
+		"Comment [Resting point for Influence with City-States is decreased by 15]",
+		"Resting point for Influence with City-States is increased by [-15] <hidden from users>"
+			]
+		"cities": [
+			"Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
+	"Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
+	"Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"
+			]
+        "spyNames": ["", "", "", "", "", "", "", "", "", ""]
+	},
+	{
+		"name": "The Tortured Ones",
+		"leaderName": "The Mechanist",
+		"adjective": ["Tortured"],
+		"startBias": ["Wasteland"],
+		"preferredVictorType": "Domination",
+		"favoredReligion": "Mechanizationism",
+
+		"startIntroPart1": "THERE IS NO HOPE. THE PATH OF PROGRESS IS A TORTURED PATH.\n\nTHE TORTURED PATH ONLY BRINGS DECEPTION, SUFFERING, AND DEATH.\n\nWE WERE PROMISED A QUICK WAR, THE WAR DESOLATED THE WORLD.\n\nWHAT DID THEY DO TO US?\n\nWHY MUST WE SUFFER, WHILE THEY STUDY US?\n\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.\nTHERE IS NO HOPE. THERE IS NO HOPE. THERE IS NO HOPE.",
+		"startIntroPart2": "THERE IS HOPE...",
+		
+		"declaringWar": "THE DESTRUCTION OF YOU IS A NECESSARY MOVE.",
+		"defeated": "THERE IS HOPE...",
+		"attacked": "THERE IS NO HOPE.",
+		"introduction": "I WELCOME YOU FELLOW HUMAN. I AM THE REPRESENTATIVE, SPEAKER FOR OUR LEADER, THE MECHANIST. PLEASE, DON'T BE ALARMED BY OUR LOOKS",
+		
+		"neutralHello": "REMEMBER, HE IS ALWAYS WATCHING",
+		"hateHello": "...",
+		"tradeRequest": "TRADE?",
+		
+		"outerColor": [37,102,190],
+		"innerColor": [0,0,0],
+		"style": "Mech",
+		"uniqueName": "The Tortured Path",
+		"uniques": [
+			"Starts with [Machinery]",
+			"Starts with [Engineering]",
+			"[-25]% enemy spy effectiveness [in all cities]",
+			"Gain an extra spy <upon entering the [Industrial era]>"
+			//"Starts with [Mechanization] adopted"
+		],
+		"cities": [
+			"Area 47",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""]
+        "spyNames": ["Combine", "Mr. Murphy", "Julius", "William", "The Victim", "The Agony", "Amalgamation", "Miscreation ", "Trapsuit", "The Representative "]
+    },*/
+]
