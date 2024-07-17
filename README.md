@@ -1,1 +1,1 @@
-# A-New-Dawn
+This mod adds some factions to Deciv. At the moment it only adds one, which is a WIP, but it will add more soon, including MalGen, Seaquestria, the Solar Empire, the Tortured Ones, and an unnamed antarctic faction.
