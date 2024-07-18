@@ -19,7 +19,8 @@
 		"uniqueTo": "Last Patrol",
 		"replaces": "Listening Post",
 		"maintenance": 1,
-		"happiness": 1,
+		"happiness": 2,
+		"culture": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
