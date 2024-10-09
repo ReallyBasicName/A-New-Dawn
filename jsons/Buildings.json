@@ -8,6 +8,7 @@
 		"happiness": 1,
 		"cost": 1,
 		"uniques": [
+			"Provides [1] [Weapons]",
 			"[1] free [Cadet] units appear",
 			"Gain a free [Food Store] [in this city]",
 			"Automatically built in all cities where it is buildable"
@@ -24,6 +25,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
+			"[-5]% Unhappiness from [Population] [in this city]",
 			"[-25]% enemy spy effectiveness [in this city]",
 			"Only available <in cities without a [Corrective Centre]>",
 			"Destroyed when the city is captured",
