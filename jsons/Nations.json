@@ -1,12 +1,11 @@
 [
-	//Will get events to find COG sites with Choices to Exterminate Them, Enslave Them, or Harvest Them
 	{
 		"name": "Last Patrol",
 		"leaderName": "Labatouche",
 		"adjective": ["Patrolmen"],
 		//"startBias": [""],
 		"preferredVictoryType": "Diplomatic",
-		//"personality": "Malcolm",
+		//"personality": "Labatouche",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -27,7 +26,10 @@
 		"uniqueName": "Organized Crime Initiative",
 		"uniques": [
 			"Starts with [Machinery]",
-			"[+20]% Strength <vs [Barbarian] units>"
+			"[+20]% Strength <vs [Barbarian] units>",
+			"[+1 Production, +1 Happiness] from every [Field Office]",
+			"Gifts of Gold to City-States generate [-10]% more Influence",
+			"Resting point for Influence with City-States is increased by [10]"
 			]
 		"cities": [
 			"Melbourne",
